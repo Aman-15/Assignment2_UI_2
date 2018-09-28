@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment2_UI_2</string>
+
+    <string name="title">My Form</string>
+    <string name="text_action">Drink Coffee</string>
+    <string name="choose_coffee">Choose Coffee</string>
+    <string name="title_choose_coffee">Choose Your Coffee!</string>
+
+    <string name="letsgo">Let\'s Go!</string>
+</resources>

@@ -5,17 +5,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="4dp"
-    android:paddingRight="4dp"
-    android:paddingBottom="4dp"
-    android:paddingTop="4dp">
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:cardElevation="16dp"
-        app:cardCornerRadius="@dimen/cardview_default_radius"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp"
+        >
 
         <RelativeLayout
             android:orientation="horizontal"

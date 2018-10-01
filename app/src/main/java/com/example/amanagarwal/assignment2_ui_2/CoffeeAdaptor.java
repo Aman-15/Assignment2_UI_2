@@ -89,7 +89,7 @@ public class CoffeeAdaptor extends RecyclerView.Adapter<CoffeeAdaptor.CoffeeView
                     }
                     builder.setTitle("Limit Exceeded!")
                             .setMessage("You can select atmost 7 coffee types.")
-                            .setPositiveButton(android.R.string.yes, null)
+                            .setNeutralButton(android.R.string.yes, null)
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .show();
                 }

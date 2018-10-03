@@ -91,6 +91,7 @@ public class CoffeeAdaptor extends RecyclerView.Adapter<CoffeeAdaptor.CoffeeView
                             .setMessage("You can select atmost 7 coffee types.")
                             .setNeutralButton(android.R.string.yes, null)
                             .setIcon(android.R.drawable.ic_dialog_alert)
+                            .setCancelable(false)
                             .show();
                 }
             }
